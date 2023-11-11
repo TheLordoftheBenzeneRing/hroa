@@ -1,0 +1,8 @@
+ul {
+    list-style-type: none;
+}
+
+.nav_list li {
+    display: inline;
+    width: 20%;
+}

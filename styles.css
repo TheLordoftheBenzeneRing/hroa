@@ -26,6 +26,8 @@ body {
 }
 .main {
     display: flex;
+    border-bottom: solid 1px gray;
+    margin-bottom: 15px;
 }
 .headshot {
     width: 35%;
@@ -39,9 +41,11 @@ body {
     color: green;
 }
 .github {
+    margin-left: 5px;
     width: 8%;
 }
 .linkedin {
+    margin-right: 5px;
     width: 8%;
     border-radius: 10%;
 }
@@ -62,4 +66,17 @@ body {
 }
 .education {
     width: 50%;
+}
+.college {
+    margin-top: 3px;
+    margin-left: 8px;
+    font-size: 9pt;
+}
+.reference a {
+    margin-top: 0;
+    text-decoration: none;
+    color: white;
+}
+.reference a:hover {
+    color: green;
 }

@@ -40,8 +40,13 @@ body {
 .main a:hover {
     color: green;
 }
+.mail {
+    margin-left: 5px;
+    width: 8%;
+}
 .github {
     margin-left: 5px;
+    margin-right: 2px;
     width: 8%;
 }
 .linkedin {

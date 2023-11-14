@@ -80,3 +80,7 @@ body {
 .reference a:hover {
     color: green;
 }
+.research {
+    border-bottom: solid 1px gray;
+    padding-bottom: 15px;
+}

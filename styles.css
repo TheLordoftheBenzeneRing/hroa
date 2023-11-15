@@ -15,9 +15,12 @@ body {
 }
 
 .headshot {
-    height: 25vh;
+    height: 20vh;
     border-radius: 50%;
     border: solid 2px rgb(186, 186, 186);
+}
+.sidebar h2 {
+    margin-bottom: 5px
 }
 .sidebar h5 {
     margin: 0;
@@ -32,7 +35,7 @@ body {
 .sidebar ul {
     list-style-type: none;
     padding-left: 0;
-    margin-bottom: 10%;
+    margin-top: 30px
 }
 .sidebar li {
     display: flex;
@@ -48,20 +51,28 @@ body {
     margin-bottom: 5px;
 }
 .linkbar {
-    margin-bottom: 9%;
+    margin-top: 250px
 }
 .linkbar img {
     width: 5vh;
     border: solid 1px rgb(186, 186, 186);
     border-radius: 50%;
     padding: 2%;
+    margin: 5px;
 }
 
 .main {
     width: 75%;
     background-color: rgb(39, 39, 39);
     padding-left: 5%;
-    padding-right: 5%;
+    padding-right: 23%;
+}
+#about {
+    line-height: 1.5em;
+    font-size: 1.25em;
+}
+.main li {
+    font-size: 1.25em;
 }
 
 

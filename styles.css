@@ -12,6 +12,9 @@ body {
     background-color: rgb(50, 50, 50);
     padding-left: 5vh;
     padding-top: 5vh;
+    position: fixed;
+    height: 100%;
+    overflow-y: scroll;
 }
 
 .headshot {
@@ -22,7 +25,7 @@ body {
 .sidebar h2 {
     margin-bottom: 5px
 }
-.sidebar h5 {
+.sidebar h4 {
     margin: 0;
 }
 .sidebar a {
@@ -35,9 +38,9 @@ body {
 .sidebar ul {
     list-style-type: none;
     padding-left: 0;
-    margin-top: 30px
+    margin-top: 30px;
 }
-.sidebar li {
+.sidebar ul a {
     display: flex;
     align-items: center;
 }
@@ -50,8 +53,11 @@ body {
     margin-top: 5px;
     margin-bottom: 5px;
 }
+.sidebar ul img:hover {
+    background: white;
+}
 .linkbar {
-    margin-top: 250px
+    margin-top: 200px
 }
 .linkbar img {
     width: 5vh;
@@ -60,12 +66,15 @@ body {
     padding: 2%;
     margin: 5px;
 }
+.linkbar img:hover {
+    background: white;
+}
 
 .main {
-    width: 75%;
     background-color: rgb(39, 39, 39);
-    padding-left: 5%;
-    padding-right: 23%;
+    margin-left: 425px;
+    padding-left: 100px;
+    padding-right: 50px;
 }
 #about {
     line-height: 1.5em;

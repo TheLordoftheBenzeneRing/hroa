@@ -1,0 +1,178 @@
+body {
+    font-family: Libre Franklin, Helvetica Neue, helvetica, arial, sans-serif;
+    color: rgb(186, 186, 186);
+    display: flex;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 425px;
+    background-color: rgb(50, 50, 50);
+    padding-left: 5vh;
+    padding-top: 5vh;
+    position: fixed;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.headshot {
+    height: 20vh;
+    border-radius: 50%;
+    border: solid 2px rgb(186, 186, 186);
+}
+.sidebar h2 {
+    margin-bottom: 5px
+}
+.sidebar h4 {
+    margin: 0;
+}
+.sidebar a {
+    text-decoration: none;
+    color: rgb(186, 186, 186);
+}
+.sidebar a:hover {
+    color: white;
+}
+.sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 30px;
+}
+.sidebar ul a {
+    display: flex;
+    align-items: center;
+}
+.sidebar ul img {
+    width: 3vh;
+    border: solid 1px rgb(186, 186, 186);
+    border-radius: 50%;
+    padding: 2%;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.sidebar ul img:hover {
+    background: white;
+}
+.linkbar {
+    margin-top: 200px
+}
+.linkbar img {
+    width: 5vh;
+    border: solid 1px rgb(186, 186, 186);
+    border-radius: 50%;
+    padding: 2%;
+    margin: 5px;
+}
+.linkbar img:hover {
+    background: white;
+}
+
+.main {
+    background-color: rgb(39, 39, 39);
+    margin-left: 425px;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+#about {
+    line-height: 1.5em;
+    font-size: 1.25em;
+}
+.main li {
+    font-size: 1.25em;
+}
+
+
+/* body {
+    font-family: Libre Franklin, Helvetica Neue, helvetica, arial, sans-serif;
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
+.header ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+.header li {
+    float: left;
+}
+.header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.header li a:hover {
+    color: green;
+}
+.header {
+    border-bottom: solid 1px gray;
+    margin-bottom: 15px;
+}
+.main {
+    display: flex;
+    border-bottom: solid 1px gray;
+    margin-bottom: 15px;
+}
+.headshot {
+    width: 35%;
+    border-radius: 50%;
+}
+.main a {
+    text-decoration: none;
+    color: white;
+}
+.main a:hover {
+    color: green;
+}
+.mail {
+    margin-left: 5px;
+    width: 8%;
+}
+.github {
+    margin-left: 5px;
+    margin-right: 2px;
+    width: 8%;
+}
+.linkedin {
+    margin-right: 5px;
+    width: 8%;
+    border-radius: 10%;
+}
+.left {
+    width: 50%;
+    text-align: center;
+}
+.right {
+    display: block;
+    width: 50%;
+    margin-right: 30px;
+}
+.bottom_right {
+    display: flex;
+}
+.interests {
+    width: 50%;
+}
+.education {
+    width: 50%;
+}
+.college {
+    margin-top: 3px;
+    margin-left: 8px;
+    font-size: 9pt;
+}
+.reference a {
+    margin-top: 0;
+    text-decoration: none;
+    color: white;
+}
+.reference a:hover {
+    color: green;
+}
+.research {
+    border-bottom: solid 1px gray;
+    padding-bottom: 15px;
+} */

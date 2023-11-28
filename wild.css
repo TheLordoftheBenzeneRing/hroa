@@ -79,21 +79,16 @@ body {
     padding-left: 100px;
     padding-right: 50px;
 }
-.main img {
-    max-width: 33%;
-}
-
-/*.row {
-  display: flex;
-  flex-wrap: wrap;
+.row {
+    display: flex;
 }
 .column {
-  flex: 33%;
-  padding: 0 4px;
+    flex: 33%;
+    padding: 0 4px;
 }
 .column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 5px;
-  height: auto;
-}*/
+    vertical-align: middle;
+    width: 40vh;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
